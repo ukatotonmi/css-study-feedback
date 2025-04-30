@@ -58,21 +58,25 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: beige;
-    border-radius: 10px;
-    height: 160px;
-    gap: 20px;
+    background-color: rgb(197, 197, 196);
+    border-radius: 0 0 10px 10px;
+    height: 150px;
+    gap: 15px;
 }
 
-.work {
+.work input {
     display: flex;
+    justify-content: center;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
 }
 
 .add {
     display: flex;
-    background-color: green;
+    background-color: rgb(64, 139, 64);
     color: white;
-    font-size: 25px;
+    font-size: 26px;
     border: 0;
     border-radius: 50%;
     width: 40px;
